@@ -8,7 +8,7 @@
     "test": "NODE_ENV=production mocha './tests/**/*.spec.js' --compilers js:babel-core/register",
     "clean": "rimraf dist",
     "start": "node devServer.js",
-    "tunnel": "browser-sync start --proxy localhost:7770 --tunnel justinbeuck"
+    "tunnel": "browser-sync start --proxy localhost:8080 --tunnel justinbeuck"
   },
   "repository": {
     "type": "git",
